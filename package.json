@@ -2,10 +2,10 @@
   "name": "puppeteer-experiment",
   "version": "1.0.0",
   "description": "A simple puppeteer experiment",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node",
+    "dev": "ts-node src/index.ts",
     "lint": "tslint --project tsconfig.json -t stylish || echo",
     "lint-fix": "tslint --project tsconfig.json --fix -t stylish || echo"
   },
