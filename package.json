@@ -22,10 +22,14 @@
   "homepage": "https://github.com/ArthurFoucher/puppeteer-experiment#readme",
   "devDependencies": {
     "@types/node": "^10.12.10",
+    "@types/puppeteer": "^1.10.1",
     "ts-node": "^7.0.1",
     "tsc": "^1.20150623.0",
     "tslint": "^5.11.0",
     "tslint-sonarts": "^1.8.0",
     "typescript": "^3.2.1"
+  },
+  "dependencies": {
+    "puppeteer": "^1.11.0"
   }
 }
