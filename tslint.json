@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-sonarts"
+  ],
+  "rules": {
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "object-literal-sort-keys": [
+      true,
+      "ignore-case",
+      "match-declaration-order"
+    ]
+  }
+}
