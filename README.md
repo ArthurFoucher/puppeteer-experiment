@@ -4,6 +4,6 @@ Creating a small scraping app with puppetteer gives me the opoortunity to set up
 
 
 # Run
-To run the program, execute `npm run dev`
+To run the program, execute `npm run dev:run`
 
-To re-run on save, install nodemon and run `nodemon -e ts -w ./src -x npm run dev`
+To re-run on save, install nodemon and run `npm run dev:watch`
